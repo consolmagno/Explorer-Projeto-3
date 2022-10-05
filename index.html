@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Evento</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1 class="title">Crie e compartilhe seu evento.</h1>
+        <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+      </header>
+      <main>
+        <form action="">
+          <fieldset>
+            <legend>Informações do Evento</legend>
+            <hr />
+            <div class="input-wrapper">
+              <label for="title"
+                >Título do evento <span>(mínimo 8 caracteres)</span></label
+              >
+              <input id="title" type="text" />
+            </div>
+            <div class="input-wrapper">
+              <label for="link"
+                >Link do evento <span>(comece com https://)</span></label
+              >
+              <input id="link" type="text" />
+            </div>
+            <div class="input-wrapper">
+              <label for="phone"
+                >Whatsapp para contato <span>(somente números)</span></label
+              >
+              <input id="phone" type="number" />
+            </div>
+            <div class="input-wrapper">
+              <label for="info">Informações extras</label>
+              <textarea name="" id="info" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input-wrapper">
+              <label for="category">Categoria</label>
+              <input id="category" type="options" />
+            </div>
+          </fieldset>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
